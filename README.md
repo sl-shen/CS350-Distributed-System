@@ -50,7 +50,7 @@ Your code must terminate immediately upon receiving a signal on the `quit` chann
    3. For Windows users, you will need WSL set up to run the tests.
 4. Upload the `channel_aggregator.go` and `mutex_aggregator.go` files to Gradescope. Do not change the file names, or the autograder may not recognize them.
 
-#HW2: Bank Transactions
+# HW2: Bank Transactions
 ## **Introduction**
 
 Correctness of data is very important in real world applications such as banking. An ideal bank should be able to handle millions of requests for various accounts simultaneously, whilst ensuring that all user data is correct.
@@ -136,7 +136,7 @@ PASS
 ok  	cs350/bank-transactions	4.771s
 ```
 
-#HW3: MapReduce
+# HW3: MapReduce
 ## Introduction
 
 In this lab you'll build a MapReduce system. You'll implement a worker process that calls application Map and Reduce functions and handles reading and writing files, and a coordinator process that hands out tasks to workers and copes with failed workers. You'll be building something similar to the [MapReduce paper](http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf).
@@ -332,7 +332,7 @@ and to read such a file back:
 - `test-mr.sh` runs all the processes in the sub-directory `mr-tmp`, so if something goes wrong and you want to look at intermediate or output files, look there.
 - If you are a Windows user and use WSL, you might have to do `dos2unix test-mr.sh` before running the test script (do this in case you get weird errors when run `bash test-mr.sh`).
 
-#HW4: Raft
+# HW4: Raft
 ## Introduction
 
 In this series of assignments you'll implement Raft, a replicated state machine protocol. A replicated service achieves fault tolerance by storing complete copies of its state (i.e., data) on multiple replica servers. Replication allows the service to continue operating even if some of its servers experience failures (crashes or a broken or flaky network). The challenge is that failures may cause the replicas to hold differing copies of the data.
